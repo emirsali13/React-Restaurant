@@ -1,0 +1,36 @@
+.marquee {
+  background-color: #fb6a59;
+  color: #edede9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+  width: 100%;
+  position: absolute;
+  left: 0;
+
+  margin-bottom: 20px;
+}
+
+.marquee-inner {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  gap: 200px;
+  font-size: 1.2rem;
+}
+
+.text1 {
+  margin-left: 200px;
+}
+
+.code {
+  color: #eddea4;
+}
+
+@media (min-width: 1050px) {
+  .marquee {
+    margin-top: -70px;
+  }
+}
